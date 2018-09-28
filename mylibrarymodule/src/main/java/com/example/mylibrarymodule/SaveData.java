@@ -1,8 +1,8 @@
 package com.example.mylibrarymodule;
 
 public class SaveData {
-    String fName;
-    String sName;
+    public  String fName;
+    public String sName;
     public SaveData(String firstName,String secondName){
         this.fName = firstName;
         this.sName = secondName;
@@ -15,4 +15,5 @@ public class SaveData {
     public String getsName() {
         return sName;
     }
+
 }
